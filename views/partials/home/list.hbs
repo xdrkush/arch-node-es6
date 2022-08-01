@@ -1,0 +1,7 @@
+<h2>List</h2>
+
+<ul>
+  {{#each (limitArray list 3)}}
+    <li>item: {{upper this.title}}</li>
+  {{/each}}
+</ul>
